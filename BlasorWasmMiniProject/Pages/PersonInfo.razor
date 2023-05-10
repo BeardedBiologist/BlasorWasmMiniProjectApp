@@ -1,9 +1,11 @@
 ﻿@page "/person"
 
-<h3>Person Info</h3>
+<div class="row">
+    <div class="col-6">
+        <Person />
+    </div>
+    <div class="col-6">
+        <Address />
+    </div>
 
-@code {
-    private PersonModel personModel = new();
-    private AddressModel addressModel = new();
-
-}
+</div>
